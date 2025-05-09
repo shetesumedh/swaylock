@@ -26,8 +26,8 @@ I built this setup to go beyond surface-level tweaks and explore the **deeper wo
    mkdir git
    cd git
    git clone https://github.com/shetesumedh/swaylock.git
-   pacman -Syu
-   pacman -S swaylock
+   sudo pacman -Syu
+   sudo pacman -S swaylock
    cd swaylock
    chmod +x lockscreen.sh
    ./lockscreen.sh
